@@ -51,7 +51,6 @@ document.addEventListener('keypress', (e) => {
       
     });
   }
-
   if (e.code === 'KeyS') {
     displayedsquare.forEach(element => {
       element.remove();

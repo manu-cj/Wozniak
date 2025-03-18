@@ -28,6 +28,7 @@ pwd.addEventListener('keyup', () => {
         pwd.style.border = '2px solid green'
         pwd.setCustomValidity('');
     }
+    pwd.reportValidity();
 });
 
 pwdConfirm.addEventListener('keyup', () => {
@@ -39,6 +40,7 @@ pwdConfirm.addEventListener('keyup', () => {
         pwdConfirm.style.border = '2px solid green';
         pwdConfirm.setCustomValidity('');
     }
+    pwdConfirm.reportValidity();
 });
 
 const toggleDarkmode = document.querySelector('#toggle-darkmode');
